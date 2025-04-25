@@ -74,6 +74,7 @@ lang.lang = {
 
 	// workers
 	select_worker = "Select worker",
+	hire_worker = "hire %s",
 	worker_hired = "You hired %name as a new worker!",
 	worker_wage_unpayable = "Your company does not have enough money to pay %name",
 	too_tired = "%name is too tired to work!",
@@ -81,6 +82,7 @@ lang.lang = {
 	fire_worker = "Fire worker",
 	worker_fired = "You fired %name",
 	asleep = "Asleep - [%key] to wake up",
+	new_workers_in = "New workers in",
 
 	// Destruction
 	corp_rebellion = "Your employees started a rebellion and burnt everything down!",
@@ -98,6 +100,7 @@ lang.lang = {
 	vault = "Corporate vault",
 
 	//Researches
+	research_description = "Here will be a description of the research",
 	wakeup_employees = "Wakeup employees",
 	start_research = "Start research",
 	select_research_first = "You must select a research option first!",

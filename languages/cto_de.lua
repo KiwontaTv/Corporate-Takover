@@ -74,6 +74,7 @@ lang.lang = {
 
 	// Arbeiter
 	select_worker = "Arbeiter auswählen",
+	hire_worker = "%s anstellen",
 	worker_hired = "Du hast %name als neuen Arbeiter eingestellt!",
 	worker_wage_unpayable = "Dein Unternehmen hat nicht genug Geld, um %name zu bezahlen",
 	too_tired = "%name ist zu müde zum Arbeiten!",
@@ -81,6 +82,7 @@ lang.lang = {
 	fire_worker = "Arbeiter entlassen",
 	worker_fired = "Du hast %name entlassen",
 	asleep = "Eingeschlafen - [%key] zum Aufwecken",
+	new_workers_in = "Neue Arbeiter in",
 
 	// Zerstörung
 	corp_rebellion = "Deine Mitarbeiter haben eine Rebellion gestartet und alles niedergebrannt!",
@@ -98,6 +100,7 @@ lang.lang = {
 	vault = "Firmentresor",
 
 	// Forschungen
+	research_description = "Hier steht eine Beschreibung der jeweiligen Forschung",
 	wakeup_employees = "Mitarbeiter wecken",
 	start_research = "Forschung starten",
 	select_research_first = "Du musst zuerst eine Forschung auswählen!",

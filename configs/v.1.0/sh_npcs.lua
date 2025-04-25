@@ -3,7 +3,7 @@
 //     Corporate Takeover     //
 //     By KiwontaTv & Ian     //
 //                            //
-//        03 & 04/2023        //
+//           04/2025          //
 //                            //
 //     STEAM_0:0:178850058    //
 //     STEAM_0:1:153915274    //
@@ -142,7 +142,16 @@ Corporate_Takeover.Config.Surnames = {
     "Worf",
     "Burnham",
     "Pike",
-    "Kirk",
+    "Kirk", -- How did you know I like Star Trek???
 
-    // How did you know I like Star Trek???
+    "Shcherbina",
+    "Legasov",
+    "Baranov",
+    "Bezpalov",
+    "Ananenko",
+    "Toptunov",
+    "Akimov",
+    "Telyatnikov",
+    "Ignatenko", -- In honor to the people of Черно́быль (Chernobyl)
+                 -- any many many more.
 }

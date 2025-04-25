@@ -3,7 +3,7 @@
 //     Corporate Takeover     //
 //     By KiwontaTv & Ian     //
 //                            //
-//        03 & 04/2023        //
+//           04/2025          //
 //                            //
 //     STEAM_0:0:178850058    //
 //     STEAM_0:1:153915274    //
@@ -24,10 +24,10 @@ Corporate_Takeover.Config.Language = "en"
 // How much money creating a company costs [default: 5000]
 Corporate_Takeover.Config.CompanyFee = 5000
 
-// How many deskbuilders a player can have simultaneously [default: 5]
+// How many deskbuilders a player can have simultaneously [default: 4]
 Corporate_Takeover.Config.MaxDeskbuilders = 4
 
-// How many seconds pass between each tick. [default: 60]
+// How many seconds pass between each tick. [default: 5]
 // A tick is the calculation of each desk. The higher the number, the slower the progress.
 Corporate_Takeover.Config.TickDelay = 5
 
@@ -40,8 +40,9 @@ Corporate_Takeover.Config.DonatorGroups = {
 // Admin usergroups
 Corporate_Takeover.Config.StaffGroups = {
     ["owner"] = true,
+    ["communitymanager"] = true,
+    ["developer"] = true,
     ["superadmin"] = true,
-    ["admin"] = true,
 }
 
 // Should staff count as donators? [default: true]
@@ -70,10 +71,10 @@ Corporate_Takeover.Config.DropVaultMoney = true
 Corporate_Takeover.Config.VaultExpansionPercent = 0.1
 
 // Lowest possible corp balance before the company is bankrupt [default: -1000]
-Corporate_Takeover.Config.BankruptBorder = 0
+Corporate_Takeover.Config.BankruptBorder = -1000
 
-// How the company ends when there is no money left. [default: 1]
-// [1] = Employees start a rebellion and burn everything down. The company ceases to exist.
+// How the company ends when there is no money left. [default: 2]
+// [1] = Employees start a rebellion and burn everything down. The company ceases to exist. - Note that this option has the potential to cause lag due to fire!
 // [2] = All employees quit and the company is empty. The company will not work, until money is added and employees are hired.
 Corporate_Takeover.Config.BankruptMode = 2
 
@@ -97,7 +98,7 @@ Corporate_Takeover.Config.HierarbleWorkers = 8
 // How long it takes to generate a new set of hireable workers [default: 600]
 Corporate_Takeover.Config.HierableWorkersDelay = 600
 
-// The range a worker can generate money per tick [default: {100, 250}]
+// The range a worker can generate money per tick [default: {100, 125}]
 Corporate_Takeover.Config.WorkerMoney = {100, 125}
 
 
@@ -112,7 +113,7 @@ Corporate_Takeover.Config.CoffeeBuyable = true
 Corporate_Takeover.Config.MaxCoffees = 4
 
 // Coffee entties and their energy boost [default: {["cto_coffee"] = 50,}]
-// If you want to add your owm, just enter the classname and the energy percentage it can restore (1-100)
+// If you want to add your own, just enter the classname and the energy percentage it can restore (1-100)
 Corporate_Takeover.Config.Coffee = {
     ["cto_coffee"] = true, -- CTO coffee has different amounts of energy so the system handels it by itself
 
@@ -154,43 +155,30 @@ Corporate_Takeover.Config.DefaultCoffee = {
     },
 }
 
-// How much 1% energy costs when the secretary worker replenishes energy [default: 20]
-Corporate_Takeover.Config.SecretaryCoffeeCost = 50
-
-//
-// Levels
-//
-
-// You can change these values if you know, what you're doing.
-// How much XP is needed for each worker level [default: (((10 + level) * level) * 33)]
-Corporate_Takeover.Config.XPNeededForWorkerLevel = function(level)
-    return (((10 + level) * level) * 33)
-end
-
-// You can change these values if you know, what you're doing.
-// How much XP is needed for each company level [default: ((10 + level) * level) * 66) * 2]
-Corporate_Takeover.Config.XPNeededForCorpLevel = function(level)
-    return (((10 + level) * level) * 66)
-end
+// How much 1% energy costs when the secretary worker replenishes energy [default: 30]
+Corporate_Takeover.Config.SecretaryCoffeeCost = 30
 
 //
 // Colors
 //
 
 // Menu Colors
-Corporate_Takeover.Config.Colors.Background = Color(33, 33, 33)
-Corporate_Takeover.Config.Colors.BrightBackground = Color(46, 46, 46)
+Corporate_Takeover.Config.Colors.Background = Color(33, 33, 33, 255)
+Corporate_Takeover.Config.Colors.BrightBackground = Color(46, 46, 46, 255)
+Corporate_Takeover.Config.Colors.BrightBackgroundHover = Color(56, 56, 56, 255)
 
-Corporate_Takeover.Config.Colors.Primary = Color(100, 0, 255)
+Corporate_Takeover.Config.Colors.Primary = Color(100, 0, 255, 255)
 
-Corporate_Takeover.Config.Colors.Text = Color(255, 255, 255)
+Corporate_Takeover.Config.Colors.Text = Color(255, 255, 255, 255)
+Corporate_Takeover.Config.Colors.TextMuted = Color(180, 180, 180, 255)
 
-Corporate_Takeover.Config.Colors.CloseButton = Color(84, 54, 54)
-Corporate_Takeover.Config.Colors.CloseButtonHover = Color(104, 66, 66)
+Corporate_Takeover.Config.Colors.CloseButton = Color(84, 54, 54, 255)
+Corporate_Takeover.Config.Colors.CloseButtonHover = Color(104, 66, 66, 255)
 
-Corporate_Takeover.Config.Colors.Green = Color(50, 255, 50)
-Corporate_Takeover.Config.Colors.Red = Color(150, 50, 50)
+Corporate_Takeover.Config.Colors.Green = Color(50, 255, 50, 255)
+Corporate_Takeover.Config.Colors.Red = Color(150, 50, 50, 255)
 
+-- Sorry sounds
 Corporate_Takeover.Config.Sounds.sorry = {
     ["male"] = {
         "vo/npc/male01/sorry01.wav",
@@ -206,6 +194,7 @@ Corporate_Takeover.Config.Sounds.sorry = {
     }
 }
 
+-- Thanks sounds
 Corporate_Takeover.Config.Sounds.thanks = {
     ["male"] = {
         "vo/npc/male01/nice.wav",
@@ -218,6 +207,7 @@ Corporate_Takeover.Config.Sounds.thanks = {
     }
 }
 
+-- Sleeping sounds
 Corporate_Takeover.Config.Sounds.sleeping = {
     ["male"] = {
         "vo/npc/male01/moan03.wav",
@@ -229,12 +219,14 @@ Corporate_Takeover.Config.Sounds.sleeping = {
     }
 }
 
+-- Other sounds
 Corporate_Takeover.Config.Sounds.General = {
     ["placing_desk"] = "physics/concrete/rock_impact_hard1.wav",
     ["dismantle_desk"] = "physics/metal/metal_computer_impact_soft2.wav",
     ["deskplacer_aborted"] = "buttons/combine_button1.wav",
 
     ["error"] = "buttons/combine_button1.wav",
+    ["click"] = "ui/buttonclick.wav",
 
     ["vault_open"] = "ambient/machines/combine_terminal_idle4.wav",
     ["vault_close"] = "ambient/machines/combine_terminal_idle4.wav",

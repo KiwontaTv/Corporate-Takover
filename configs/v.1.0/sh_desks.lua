@@ -3,7 +3,7 @@
 //     Corporate Takeover     //
 //     By KiwontaTv & Ian     //
 //                            //
-//        03 & 04/2023        //
+//           04/2025          //
 //                            //
 //     STEAM_0:0:178850058    //
 //     STEAM_0:1:153915274    //
@@ -242,29 +242,6 @@ Corporate_Takeover:addDesk("research_desk", {
 })
 
 /*
-    Researches
-        research_price_drop     x   y
-        research_efficiency     x   y
-
-    Workers:
-        research_wage_1         x   y
-        research_wage_2         x   y
-        research_wage_3         x   y
-
-    Secretary:
-        automatic_coffee        x   y
-        automatic_coffee_self   x   y
-        wakeup_employees        x   y
-
-    XP:
-        xp_corp_1               x   y
-        xp_corp_2               x   y
-
-        xp_worker_1             x   y
-        xp_worker_2             x   y
-*/
-
-/*
     This is a demo research to show you, how it works. It will NOT get loaded.
 */
 
@@ -282,10 +259,10 @@ Corporate_Takeover:addResearchOption("demo", {
     restriction = "admin", -- Groups set in the config ["admin" or "donator"]
 
     time = 60, -- how long it takes to research (in seconds)
+
+    -- Optinal: A callback function that gets called when the research is finished.
     onFinish = function(Corp, CorpID, class, ent)
-        // This function gets called, when the research is done.
-        // The next line saves the research to the company where it can be checked the same way.
-        Corporate_Takeover.Corps[CorpID].researches[class] = true
+        
     end
 })
 /*
@@ -302,9 +279,6 @@ Corporate_Takeover:addResearchOption("research_efficiency", {
     level = 5,
     price = 10000,
     time = 180,
-    onFinish = function(Corp, CorpID, class, ent)
-        Corporate_Takeover.Corps[CorpID].researches[class] = true
-    end
 })
 
 Corporate_Takeover:addResearchOption("research_price_drop", {
@@ -313,9 +287,6 @@ Corporate_Takeover:addResearchOption("research_price_drop", {
     level = 5,
     price = 10000,
     time = 180,
-    onFinish = function(Corp, CorpID, class, ent)
-        Corporate_Takeover.Corps[CorpID].researches[class] = true
-    end
 })
 
 //
@@ -328,9 +299,6 @@ Corporate_Takeover:addResearchOption("xp_worker_1", {
     level = 5,
     price = 5000,
     time = 120,
-    onFinish = function(Corp, CorpID, class, ent)
-        Corporate_Takeover.Corps[CorpID].researches[class] = true
-    end
 })
 
 Corporate_Takeover:addResearchOption("xp_worker_2", {
@@ -339,9 +307,6 @@ Corporate_Takeover:addResearchOption("xp_worker_2", {
     level = 8,
     price = 10000,
     time = 120,
-    onFinish = function(Corp, CorpID, class, ent)
-        Corporate_Takeover.Corps[CorpID].researches[class] = true
-    end
 })
 
 Corporate_Takeover:addResearchOption("xp_corp_1", {
@@ -350,9 +315,6 @@ Corporate_Takeover:addResearchOption("xp_corp_1", {
     level = 6,
     price = 5000,
     time = 120,
-    onFinish = function(Corp, CorpID, class, ent)
-        Corporate_Takeover.Corps[CorpID].researches[class] = true
-    end
 })
 
 Corporate_Takeover:addResearchOption("xp_corp_2", {
@@ -361,9 +323,6 @@ Corporate_Takeover:addResearchOption("xp_corp_2", {
     level = 7,
     price = 10000,
     time = 120,
-    onFinish = function(Corp, CorpID, class, ent)
-        Corporate_Takeover.Corps[CorpID].researches[class] = true
-    end
 })
 
 //
@@ -376,9 +335,6 @@ Corporate_Takeover:addResearchOption("research_wage_1", {
     level = 5,
     price = 5000,
     time = 60,
-    onFinish = function(Corp, CorpID, class, ent)
-        Corporate_Takeover.Corps[CorpID].researches[class] = true
-    end
 })
 
 Corporate_Takeover:addResearchOption("research_wage_2", {
@@ -387,9 +343,6 @@ Corporate_Takeover:addResearchOption("research_wage_2", {
     level = 9,
     price = 10000,
     time = 120,
-    onFinish = function(Corp, CorpID, class, ent)
-        Corporate_Takeover.Corps[CorpID].researches[class] = true
-    end
 })
 
 Corporate_Takeover:addResearchOption("research_wage_3", {
@@ -398,9 +351,6 @@ Corporate_Takeover:addResearchOption("research_wage_3", {
     level = 15,
     price = 15000,
     time = 180,
-    onFinish = function(Corp, CorpID, class, ent)
-        Corporate_Takeover.Corps[CorpID].researches[class] = true
-    end
 })
 
 //
@@ -413,9 +363,6 @@ Corporate_Takeover:addResearchOption("automatic_coffee_self", {
     level = 20,
     price = 50000,
     time = 600,
-    onFinish = function(Corp, CorpID, class, ent)
-        Corporate_Takeover.Corps[CorpID].researches[class] = true
-    end
 })
 
 Corporate_Takeover:addResearchOption("automatic_coffee", {
@@ -423,9 +370,6 @@ Corporate_Takeover:addResearchOption("automatic_coffee", {
     level = 12,
     price = 25000,
     time = 300,
-    onFinish = function(Corp, CorpID, class, ent)
-        Corporate_Takeover.Corps[CorpID].researches[class] = true
-    end
 })
 
 Corporate_Takeover:addResearchOption("wakeup_employees", {
@@ -433,7 +377,4 @@ Corporate_Takeover:addResearchOption("wakeup_employees", {
     level = 8,
     price = 12500,
     time = 180,
-    onFinish = function(Corp, CorpID, class, ent)
-        Corporate_Takeover.Corps[CorpID].researches[class] = true
-    end
 })
