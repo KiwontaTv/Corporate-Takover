@@ -19,7 +19,6 @@
 // Language: [default: en]
 // [en] =  English by KiwontaTv
 // [de] =  German/Deutsch by KiwontaTv
-// [fr] =  French/Français by https://www.gmodstore.com/users/tomkez
 Corporate_Takeover.Config.Language = "en"
 
 // How much money creating a company costs [default: 5000]

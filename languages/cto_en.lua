@@ -74,7 +74,7 @@ lang.lang = {
 
 	// workers
 	select_worker = "Select worker",
-	hire_worker = "hire %s",
+	hire_worker = "Hire %s",
 	worker_hired = "You hired %name as a new worker!",
 	worker_wage_unpayable = "Your company does not have enough money to pay %name",
 	too_tired = "%name is too tired to work!",
