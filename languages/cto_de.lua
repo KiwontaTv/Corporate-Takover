@@ -48,10 +48,10 @@ lang.lang = {
 	deskbuilder_limit = "Du hast das Limit von Schreibtischbauern erreicht!",
 	dismantle = "Schreibtisch abbauen",
 	dismantle_vault = "Vault abbauen",
-	sell_desk = "Schreibtisch verkaufen",
 	cant_sell = "Du kannst diesen Schreibtisch nicht verkaufen!",
-	build_desk = "Schreibtisch bauen",
 	desk_sold = "Du hast %name für %price verkauft",
+	sell_desk = "Schreibtisch verkaufen",
+	build_desk = "Schreibtisch bauen",
 
 	// Kaffee
 	coffee_limit = "Du hast das Limit von Kaffee erreicht!",
@@ -71,6 +71,8 @@ lang.lang = {
 	// Vault
 	open_vault = "Tresor öffnen",
 	close_vault = "Tresor schließen",
+	sell_desk = "Tresor verkaufen",
+	build_desk = "Tresor bauen",
 
 	// Arbeiter
 	select_worker = "Arbeiter auswählen",

@@ -48,10 +48,10 @@ lang.lang = {
 	deskbuilder_limit = "You have reached the limit of deskbuilders!",
 	dismantle = "Dismantle desk",
 	dismantle_vault = "Dismantle vault",
-	sell_desk = "Sell desk",
 	cant_sell = "You can't sell this desk!",
-	build_desk = "Build desk",
 	desk_sold = "You sold %name for %price",
+	sell_desk = "Sell desk",
+	build_desk = "Build desk",
 
 	// Coffee
 	coffee_limit = "You have reached the limit of coffee!",
@@ -71,6 +71,8 @@ lang.lang = {
 	// Vault
 	open_vault = "Open vault",
 	close_vault = "Close vault",
+	sell_vault = "Sell vault",
+	build_vault = "Build vault",
 
 	// workers
 	select_worker = "Select worker",

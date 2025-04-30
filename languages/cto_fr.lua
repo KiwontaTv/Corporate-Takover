@@ -50,10 +50,10 @@ lang.lang = {
 	deskbuilder_limit = "Vous avez atteint la limite de cartons !",
 	dismantle = "Supprimer le bureau",
 	dismantle_vault = "Supprimer le coffre fort",
-	sell_desk = "Vendre le bureau",
 	cant_sell = "Vous ne pouvez pas vendre ce bureau !",
-	build_desk = "Construire le bureau",
 	desk_sold = "Vous avez vendu %name pour %price !",
+	build_desk = "Construire le bureau",
+	sell_desk = "Vendre le bureau",
 
 	// Coffee
 	coffee_limit = "Vous avez atteint la limite de cafés !",
@@ -73,6 +73,8 @@ lang.lang = {
 	// Vault
 	open_vault = "Ouvrir le coffre fort",
 	close_vault = "Fermer le coffre fort",
+	build_vault = "Construire le coffre fort",
+	sell_vault = "Vendre le coffre fort",
 
 	// workers
 	select_worker = "Selectionner l'employé",
