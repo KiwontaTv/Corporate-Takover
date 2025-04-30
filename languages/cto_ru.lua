@@ -3,6 +3,8 @@ local lang = {}
 lang.name = "Русский"
 lang.short = "ru"
 
+// Made by https://www.gmodstore.com/users/eysti
+
 lang.lang = {
 	// General
 	err = "Что-то пошло не так. Пожалуйста, попробуйте еще раз!",
