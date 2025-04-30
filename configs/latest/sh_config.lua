@@ -20,6 +20,7 @@
 // [en] =  English by KiwontaTv
 // [de] =  German/Deutsch by KiwontaTv
 // [fr] =  French/Français by https://www.gmodstore.com/users/tomkez
+// [ru] =  Russian/Русский by https://www.gmodstore.com/users/eysti
 Corporate_Takeover.Config.Language = "en"
 
 // How much money creating a company costs [default: 5000]
@@ -123,7 +124,7 @@ Corporate_Takeover.Config.Coffee = {
 
 Corporate_Takeover.Config.DefaultCoffee = {
     {
-        name = "Black coffee",
+        name = Corporate_Takeover:Lang("coffee_black"),
         icon = "cto_coffee_black",
         price = 500,
         level = 1,
@@ -131,7 +132,7 @@ Corporate_Takeover.Config.DefaultCoffee = {
         energy = 25,
     },
     {
-        name = "Black coffee with sugar",
+        name = Corporate_Takeover:Lang("coffee_black_sugar"),
         icon = "cto_coffee_black_sugar",
         price = 750,
         level = 3,
@@ -139,7 +140,7 @@ Corporate_Takeover.Config.DefaultCoffee = {
         energy = 50,
     },
     {
-        name = "Black bean coffee",
+        name = Corporate_Takeover:Lang("coffee_bean"),
         icon = "cto_coffee_black_bean",
         price = 1125,
         level = 4,
@@ -147,7 +148,7 @@ Corporate_Takeover.Config.DefaultCoffee = {
         energy = 75,
     },
     {
-        name = "Black bean coffee with sugar",
+        name = Corporate_Takeover:Lang("coffee_bean_sugar"),
         icon = "cto_coffee_black_bean_sugar",
         price = 1750,
         level = 6,

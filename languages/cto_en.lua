@@ -9,6 +9,8 @@ lang.lang = {
 	no_space = "There is not enough space!",
 	max = "Max.",
 	level = "Level",
+	xp = "XP",
+	energy = "Energy",
 	wage = "Wage",
 	age = "Age",
 	earnings = "Earnings",
@@ -57,6 +59,11 @@ lang.lang = {
 	coffee_limit = "You have reached the limit of coffee!",
 	coffee_no_money = "Your corporation does not have enough money to buy this coffee!",
 
+	coffee_black = "Black coffee",
+	coffee_black_sugar = "Black coffee with sugar",
+	coffee_bean = "Black bean coffee",
+	coffee_bean_sugar = "Black bean coffee with sugar",
+
 	// Money deposit/withdraw
 	withdraw_money = "Withdraw money",
 	money_amount = "Amount of money",
@@ -102,6 +109,7 @@ lang.lang = {
 	vault = "Corporate vault",
 
 	//Researches
+	research_waiting = "Waiting",
 	research_description = "Here will be a description of the research",
 	wakeup_employees = "Wakeup employees",
 	start_research = "Start research",

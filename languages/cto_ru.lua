@@ -10,6 +10,8 @@ lang.lang = {
 	err = "Что-то пошло не так. Пожалуйста, попробуйте еще раз!",
 	no_space = "Недостаточно места!",
 	max = "Макс.",
+	xp = "Опыт",
+	energy = "Энергия",
 	level = "Уровень",
 	wage = "Зарплата",
 	age = "Возраст",
@@ -59,6 +61,11 @@ lang.lang = {
 	coffee_limit = "Вы достигли лимита кофе!",
 	coffee_no_money = "У вашей корпорации недостаточно денег для покупки этого кофе!",
 
+	coffee_black = "Чёрный кофе",
+	coffee_black_sugar = "Чёрный кофе с сахаром",
+	coffee_bean = "Зерновой кофе",
+	coffee_bean_sugar = "Зерновой кофе с сахаром",
+
 	// Money deposit/withdraw
 	withdraw_money = "Снять деньги",
 	money_amount = "Сумма денег",
@@ -104,6 +111,7 @@ lang.lang = {
 	vault = "Корпоративное хранилище",
 
 	//Researches
+	research_waiting = "В ожидании",
 	research_description = "Здесь будет описание исследования",
 	wakeup_employees = "Разбудить сотрудников",
 	start_research = "Начать исследование",
