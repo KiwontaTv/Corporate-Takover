@@ -133,7 +133,7 @@ lang.lang = {
 	research_wage_3 = "Cheap workers III",
 	automatic_coffee_self = "Selfserving Servant",
 	automatic_coffee = "Servant",
-	wakeup_employees = "Wake up!",
+	wakeup_employees_research = "Wake up!",
 
 	research_efficiency_desc = "All researches will be 10% quicker",
 	research_price_drop_desc = "All researches will cost 10% less",

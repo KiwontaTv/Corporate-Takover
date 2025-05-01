@@ -133,7 +133,7 @@ lang.lang = {
 	research_wage_3 = "Günstige Arbeitskräfte III",
 	automatic_coffee_self = "Selbstversorger",
 	automatic_coffee = "Diener",
-	wakeup_employees = "Aufwachen!",
+	wakeup_employees_research = "Aufwachen!",
 
 	research_efficiency_desc = "Alle Forschungen werden 10% schneller durchgeführt.",
 	research_price_drop_desc = "Alle Forschungen kosten 10% weniger.",

@@ -135,7 +135,7 @@ lang.lang = {
 	research_wage_3 = "Дешевые работники III",
 	automatic_coffee_self = "Самообслуживающий слуга",
 	automatic_coffee = "Слуга",
-	wakeup_employees = "Разбудить сотрудников",
+	wakeup_employees_research = "Разбудить сотрудников",
 
 	research_efficiency_desc = "Все исследования будут на 10% быстрее",
 	research_price_drop_desc = "Все исследования будут стоить на 10% дешевле",
