@@ -82,6 +82,9 @@ Corporate_Takeover.Config.BankruptBorder = -1000
 // [2] = All employees quit and the company is empty. The company will not work, until money is added and employees are hired.
 Corporate_Takeover.Config.BankruptMode = 2
 
+// Should desks still cost money once the company is bankrupt? [default: true]
+Corporate_Takeover.Config.BankruptDeskUpkeep = true
+
 //
 // Desks
 //
