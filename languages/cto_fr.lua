@@ -21,8 +21,8 @@ lang.lang = {
 	cto_missing_admin = "Vous avez besoin d'être administrateur pour faire ceci !",
 	cto_missing_donator = "Vous avez besoin d'être VIP pour faire ceci !",
 
-	key_place_desk = "Clique Gauche : Placer le bureau",
-	key_cancel_desk = "Clique Droit : Annuler",
+	key_place_desk = "Clic Gauche : Placer le bureau",
+	key_cancel_desk = "Clic Droit : Annuler",
 
 	// Permissions
 	not_yours = "Ce n'est pas votre carton !",
@@ -84,7 +84,7 @@ lang.lang = {
 	sell_vault = "Vendre le coffre fort",
 
 	// workers
-	select_worker = "Selectionner l'employé",
+	select_worker = "Sélectionner l'employé",
 	hire_worker = "Recruter %s",
 	worker_hired = "Vous avez recruté %name comme nouvel employé !",
 	worker_wage_unpayable = "Votre entreprise n'a pas assez d'argent pour payer %name !",
@@ -97,8 +97,8 @@ lang.lang = {
 
 	// Destruction
 	corp_rebellion = "Vos employés ont fait une rébellion et ont tout brulé !",
-	corp_bankrupt = "Vos employés partent parceque vous ne pouvez pas les payer !",
-	corp_lost = "Votre bureau d'entreprise à été détruit. Votre entreprise a fermé :(",
+	corp_bankrupt = "Vos employés partent parce que vous ne pouvez pas les payer !",
+	corp_lost = "Votre bureau d'entreprise a été détruit. Votre entreprise a fermé :(",
 
 	// Desk names
 	corporate_desk = "Bureau d'Entreprise",
@@ -147,8 +147,8 @@ lang.lang = {
 	research_wage_2_desc = "Le salaire de vos employés sera réduit de 10%.",
 	research_wage_3_desc = "Le salaire de vos employés sera réduit de 10%.",
 
-	wakeup_employees_desc = "Si le niveau d'energie de votre bureau de secrétaire est suffisant, il sera capable de reveiller tout les employés.",
-	automatic_coffee_desc = "Votre bureau de secrétaire sera capable de redonner de l'energie à tout les employés (sauf à lui même)",
+	wakeup_employees_desc = "Si le niveau d'energie de votre bureau de secrétaire est suffisant, il sera capable de reveiller tous les employés.",
+	automatic_coffee_desc = "Votre bureau de secrétaire sera capable de redonner de l'energie à tous les employés (sauf à lui même)",
 	automatic_coffee_self_desc = "Votre bureau de secrétaire sera capable de se redonner de l'energie !",
 }
 
