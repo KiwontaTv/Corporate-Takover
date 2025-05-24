@@ -82,6 +82,7 @@ lang.lang = {
 	close_vault = "Закрыть хранилище",
 	sell_vault = "Продать хранилище",
     build_vault = "Построить хранилище",
+	upgrade_vault = "Улучшить хранилище",
 
 	// workers
 	select_worker = "Выбрать работника",

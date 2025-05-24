@@ -82,6 +82,7 @@ lang.lang = {
     close_vault = "Kasayı kapat",
     sell_vault = "Kasayı sat",
     build_vault = "Kasa kur",
+    upgrade_vault = "Kasayı yükselt",
  
     // Çalışanlar
     select_worker = "Çalışan seç",

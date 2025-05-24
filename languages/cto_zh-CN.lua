@@ -82,6 +82,7 @@ lang.lang = {
 	close_vault = "关闭金库", -- Close vault
 	sell_vault = "出售金库", -- Sell vault
 	build_vault = "建造金库", -- Build vault
+	upgrade_vault = "升级金库", -- Upgrade vault
 
 	-- Workers
 	select_worker = "选择员工", -- Select worker

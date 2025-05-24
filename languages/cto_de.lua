@@ -80,6 +80,7 @@ lang.lang = {
 	close_vault = "Tresor schließen",
 	sell_desk = "Tresor verkaufen",
 	build_desk = "Tresor bauen",
+	upgrade_vault = "Tresor verbessern",
 
 	// Arbeiter
 	select_worker = "Arbeiter auswählen",

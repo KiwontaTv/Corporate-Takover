@@ -82,6 +82,7 @@ lang.lang = {
 	close_vault = "Fermer le coffre fort",
 	build_vault = "Construire le coffre fort",
 	sell_vault = "Vendre le coffre fort",
+	upgrade_vault = "Améliorer le coffre fort",
 
 	// workers
 	select_worker = "Sélectionner l'employé",

@@ -80,6 +80,7 @@ lang.lang = {
 	close_vault = "Close vault",
 	sell_vault = "Sell vault",
 	build_vault = "Build vault",
+	upgrade_vault = "Upgrade vault",
 
 	// workers
 	select_worker = "Select worker",
