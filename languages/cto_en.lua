@@ -81,6 +81,10 @@ lang.lang = {
 	sell_vault = "Sell vault",
 	build_vault = "Build vault",
 	upgrade_vault = "Upgrade vault",
+	vault_max_capacity = "Maximum vault capacity reached!",
+
+	// Taxes
+	taxes = "Taxes",
 
 	// workers
 	select_worker = "Select worker",
@@ -108,6 +112,7 @@ lang.lang = {
 	secretary_desk = "Secretary Desk",
 	research_desk = "Research Desk",
 	vault = "Corporate vault",
+	tax_desk = "Tax Desk",
 
 	//Researches
 	research_waiting = "Waiting",
@@ -135,6 +140,7 @@ lang.lang = {
 	automatic_coffee_self = "Selfserving Servant",
 	automatic_coffee = "Servant",
 	wakeup_employees_research = "Wake up!",
+	tax_fraud = "Tax Fraud",
 
 	research_efficiency_desc = "All researches will be 10% quicker",
 	research_price_drop_desc = "All researches will cost 10% less",
@@ -145,8 +151,9 @@ lang.lang = {
 	research_wage_1_desc = "The wage of your workers will be dropped by 10%.",
 	research_wage_2_desc = "The wage of your workers will be dropped by an additional 10%.",
 	research_wage_3_desc = "The wage of your workers will be dropped by an additional 10%.",
+	research_tax_fraud_desc = "Taxes will be dropped by 10%.",
 
-	wakeup_employees_desc = "Your secretary desk will be able to wake up all sleeping workers as soon as their energy level is sufficient.",
+	wakeup_employees_research_desc = "Your secretary desk will be able to wake up all sleeping workers as soon as their energy level is sufficient.",
 	automatic_coffee_desc = "Your secretary desk will be able to replenish the energy of all workers (except itself).",
 	automatic_coffee_self_desc = "Your secretary desk will be able to replenish the energy of itself.",
 }

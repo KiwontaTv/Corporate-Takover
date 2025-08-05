@@ -83,6 +83,10 @@ lang.lang = {
 	sell_vault = "Продать хранилище",
     build_vault = "Построить хранилище",
 	upgrade_vault = "Улучшить хранилище",
+	vault_max_capacity = "Максимальная емкость хранилища достигнута!",
+
+	// Taxes
+	taxes = "Налоги",
 
 	// workers
 	select_worker = "Выбрать работника",
@@ -110,6 +114,7 @@ lang.lang = {
 	secretary_desk = "Стол секретаря",
 	research_desk = "Исследовательский стол",
 	vault = "Корпоративное хранилище",
+	tax_desk = "Бухгалтерский стол",
 
 	//Researches
 	research_waiting = "В ожидании",
@@ -137,6 +142,7 @@ lang.lang = {
 	automatic_coffee_self = "Самообслуживающий слуга",
 	automatic_coffee = "Слуга",
 	wakeup_employees_research = "Разбудить сотрудников",
+	tax_fraud = "Налоговое мошенничество",
 
 	research_efficiency_desc = "Все исследования будут на 10% быстрее",
 	research_price_drop_desc = "Все исследования будут стоить на 10% дешевле",
@@ -147,6 +153,7 @@ lang.lang = {
 	research_wage_1_desc = "Зарплата ваших работников будет снижена на 10%.",
 	research_wage_2_desc = "Зарплата ваших работников будет снижена еще на 10%.",
 	research_wage_3_desc = "Зарплата ваших работников будет снижена еще на 10%.",
+	tax_fraud_desc = "Налоги будут снижены на 10%.",
 
 	wakeup_employees_desc = "Ваш стол секретаря сможет будить всех спящих работников, как только их уровень энергии будет достаточным.",
 	automatic_coffee_desc = "Ваш стол секретаря сможет пополнять энергию всех работников (кроме себя).",

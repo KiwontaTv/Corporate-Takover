@@ -83,6 +83,10 @@ lang.lang = {
 	build_vault = "Construire le coffre fort",
 	sell_vault = "Vendre le coffre fort",
 	upgrade_vault = "Améliorer le coffre fort",
+	vault_max_capacity = "Capacité maximale du coffre fort atteinte !",
+
+	// Taxes
+	taxes = "Diriger",
 
 	// workers
 	select_worker = "Sélectionner l'employé",
@@ -110,6 +114,7 @@ lang.lang = {
 	secretary_desk = "Bureau de Secrétaire",
 	research_desk = "Bureau de Recherche",
 	vault = "Coffre Fort d'Entreprise",
+	tax_desk = "Bureau de Comptabilité",
 
 	//Researches
 	research_waiting = "En attente",
@@ -137,6 +142,7 @@ lang.lang = {
 	automatic_coffee_self = "Serviteur Egoïste",
 	automatic_coffee = "Serviteur",
 	wakeup_employees_research = "Réveiller",
+	tax_fraud = "Fraude Fiscale",
 
 	research_efficiency_desc = "Toutes les recherches iront 10% plus vite !",
 	research_price_drop_desc = "Toutes les recherches coûteront 10% moins cher !",
@@ -147,6 +153,7 @@ lang.lang = {
 	research_wage_1_desc = "Le salaire de vos employés sera réduit de 10%.",
 	research_wage_2_desc = "Le salaire de vos employés sera réduit de 10%.",
 	research_wage_3_desc = "Le salaire de vos employés sera réduit de 10%.",
+	tax_fraud_desc = "Les taxes seront réduites de 10%.",
 
 	wakeup_employees_desc = "Si le niveau d'energie de votre bureau de secrétaire est suffisant, il sera capable de reveiller tous les employés.",
 	automatic_coffee_desc = "Votre bureau de secrétaire sera capable de redonner de l'energie à tous les employés (sauf à lui même)",

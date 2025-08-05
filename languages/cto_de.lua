@@ -81,6 +81,10 @@ lang.lang = {
 	sell_desk = "Tresor verkaufen",
 	build_desk = "Tresor bauen",
 	upgrade_vault = "Tresor verbessern",
+	vault_max_capacity = "Maximale Tresorkapazität erreicht!",
+
+	// Taxes
+	taxes = "Steuern",
 
 	// Arbeiter
 	select_worker = "Arbeiter auswählen",
@@ -108,6 +112,7 @@ lang.lang = {
 	secretary_desk = "Sekretärtisch",
 	research_desk = "Forschungstisch",
 	vault = "Firmentresor",
+	tax_desk = "Buchhaltungstisch",
 
 	// Forschungen
 	research_waiting = "Warten",
@@ -135,6 +140,7 @@ lang.lang = {
 	automatic_coffee_self = "Selbstversorger",
 	automatic_coffee = "Diener",
 	wakeup_employees_research = "Aufwachen!",
+	tax_fraud = "Steuerbetrug",
 
 	research_efficiency_desc = "Alle Forschungen werden 10% schneller durchgeführt.",
 	research_price_drop_desc = "Alle Forschungen kosten 10% weniger.",
@@ -145,6 +151,7 @@ lang.lang = {
 	research_wage_1_desc = "Der Lohn Ihrer Arbeiter wird um 10% gesenkt.",
 	research_wage_2_desc = "Der Lohn Ihrer Arbeiter wird um weitere 10% gesenkt.",
 	research_wage_3_desc = "Der Lohn Ihrer Arbeiter wird um weitere 10% gesenkt.",
+	research_tax_fraud_desc = "Die Steuern werden um 10% gesenkt.",
 
 	wakeup_employees_desc = "Dein Sekretär wird in der Lage sein, alle schlafenden Arbeiter aufzuwecken, sobald ihr Energielevel ausreichend ist.",
 	automatic_coffee_desc = "Dein Sekretär wird in der Lage sein, die Energie aller Arbeiter (außer sich selbst) aufzufüllen.",

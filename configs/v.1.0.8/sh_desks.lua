@@ -241,31 +241,6 @@ Corporate_Takeover:addDesk("research_desk", {
     health = 250,
 })
 
-Corporate_Takeover:addDesk("tax_desk", {
-    name = Corporate_Takeover:Lang("tax_desk"),
-    class = "tax_desk",
-    max = 1,
-
-    upkeepCost = 1.2,
-
-    buyable = true,
-    level = 4,
-    price = 5000,
-    sell = .75,
-
-    model = "models/corporate_takeover/nostras/worker_desk.mdl",
-    bodygroups = {
-        [1] = 3,
-        [2] = 1,
-        [3] = 2,
-    },
-    skin = 0,
-    modeloffset = 0,
-    modelang = 90,
-
-    health = 250,
-})
-
 /*
     This is a demo research to show you, how it works. It will NOT get loaded.
 */
@@ -402,14 +377,4 @@ Corporate_Takeover:addResearchOption("wakeup_employees_research", {
     level = 8,
     price = 12500,
     time = 180,
-})
-
-//
-// Tax researches
-//
-Corporate_Takeover:addResearchOption("tax_fraud", {
-    icon = "tax_fraud",
-    level = 10,
-    price = 18000,
-    time = 300,
 })

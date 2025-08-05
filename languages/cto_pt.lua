@@ -83,6 +83,10 @@ lang.lang = {
 	sell_vault = "Vender cofre",
 	build_vault = "Construir cofre",
 	upgrade_vault = "Melhorar cofre",
+	vault_max_capacity = "Capacidade máxima do cofre alcançada!",
+
+	// Taxes
+	taxes = "Impostos",
 
 	// workers
 	select_worker = "Selecionar empregado",
@@ -110,6 +114,7 @@ lang.lang = {
 	secretary_desk = "Mesa de Secretária",
 	research_desk = "Mesa de Pesquisa",
 	vault = "Cofre Corporativo",
+	tax_desk = "Mesa de Impostos",
 
 	//Researches
 	research_waiting = "Aguardando",
@@ -137,6 +142,7 @@ lang.lang = {
 	automatic_coffee_self = "Assistente Autônoma",
 	automatic_coffee = "Assistente",
 	wakeup_employees_research = "Acorda!",
+	tax_fraud = "Fraude Fiscal",
 
 	research_efficiency_desc = "Toda pesquisa será 10% mais rápida.",
 	research_price_drop_desc = "Toda pesquisa será 10% mais barata.",
@@ -147,6 +153,7 @@ lang.lang = {
 	research_wage_1_desc = "O salário dos seus empregados será diminuído em 10%.",
 	research_wage_2_desc = "O salário dos seus empregados será diminuído em 10% adicionais.",
 	research_wage_3_desc = "O salário dos seus empregados será diminuído em 10% adicionais.",
+	tax_fraud_desc = "As taxas serão reduzidas em 10%.",
 
 	wakeup_employees_desc = "Sua secretária será capaz de acordar todos os empregados dormindo assim que o nível de energia deles for suficiente.",
 	automatic_coffee_desc = "Sua secretária será capaz de repor a energia de todos os empregados (exceto ela mesma).",

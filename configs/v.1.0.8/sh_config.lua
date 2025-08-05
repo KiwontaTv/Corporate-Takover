@@ -72,9 +72,6 @@ Corporate_Takeover.Config.DefaultVault = 15000
 // Should the vault drop its money when destroyed? [default: true]
 Corporate_Takeover.Config.DropVaultMoney = true
 
-// At how much capacity should the vault be capped? [default: 500.000]
-Corporate_Takeover.Config.MaxVaultCapacity = 500000
-
 // How much money it costs to increase the vault (x% of the current vault amount) [default: 0.1]
 Corporate_Takeover.Config.VaultExpansionPercent = 0.1
 
@@ -88,19 +85,6 @@ Corporate_Takeover.Config.BankruptMode = 2
 
 // Should desks still cost money once the company is bankrupt? [default: true]
 Corporate_Takeover.Config.BankruptDeskUpkeep = true
-
-//
-// Taxes
-//
-
-// Taxes on incoming money [default: 20%, so 0.20]
-Corporate_Takeover.Config.General_Taxes = 0.20
-
-// Taxes on top of employee wages [default: 10%, so 0.10]
-Corporate_Takeover.Config.Wage_Taxes = 0.10
-
-// By how much does the tax clerk lower taxes? [default: 0.5, so 50%]
-Corporate_Takeover.Config.TaxClerkReduction = 0.5
 
 //
 // Desks

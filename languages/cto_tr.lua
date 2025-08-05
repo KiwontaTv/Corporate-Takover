@@ -83,7 +83,11 @@ lang.lang = {
     sell_vault = "Kasayı sat",
     build_vault = "Kasa kur",
     upgrade_vault = "Kasayı yükselt",
+    vault_max_capacity = "Maksimum kasa kapasitesine ulaşıldı!",
  
+	// Taxes
+	taxes = "Vergiler",
+
     // Çalışanlar
     select_worker = "Çalışan seç",
     hire_worker = "%s işe al",
@@ -110,6 +114,7 @@ lang.lang = {
     secretary_desk = "Sekreter Masası",
     research_desk = "Araştırma Masası",
     vault = "Şirket Kasası",
+    tax_desk = "Muhasebe Masası",
  
     // Araştırmalar
     research_waiting = "Bekleniyor",
@@ -137,6 +142,7 @@ lang.lang = {
     automatic_coffee_self = "Kendine Hizmet Eden",
     automatic_coffee = "Hizmetçi",
     wakeup_employees_research = "Uyandır!",
+    tax_fraud = "Vergi Dolandırıcılığı",
  
     research_efficiency_desc = "Tüm araştırmalar %10 daha hızlı tamamlanır.",
     research_price_drop_desc = "Tüm araştırmaların maliyeti %10 azalır.",
@@ -147,6 +153,7 @@ lang.lang = {
     research_wage_1_desc = "Çalışanlarının maaşı %10 düşer.",
     research_wage_2_desc = "Çalışanlarının maaşı ek olarak %10 daha düşer.",
     research_wage_3_desc = "Çalışanlarının maaşı ek olarak %10 daha düşer.",
+    tax_fraud_desc = "Vergiler %10 düşer.",
  
     wakeup_employees_desc = "Sekreter masası, enerjisi yeterli olan tüm uyuyan çalışanları uyandırabilir.",
     automatic_coffee_desc = "Sekreter masası, kendisi hariç tüm çalışanların enerjisini yenileyebilir.",

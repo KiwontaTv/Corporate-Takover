@@ -83,6 +83,10 @@ lang.lang = {
 	sell_vault = "出售金库", -- Sell vault
 	build_vault = "建造金库", -- Build vault
 	upgrade_vault = "升级金库", -- Upgrade vault
+	vault_max_capacity = "达到最大金库容量！", -- Maximum vault capacity reached!
+
+	// Taxes
+	taxes = "税收", -- Taxes
 
 	-- Workers
 	select_worker = "选择员工", -- Select worker
@@ -110,6 +114,7 @@ lang.lang = {
 	secretary_desk = "秘书桌", -- Secretary Desk
 	research_desk = "研究桌", -- Research Desk
 	vault = "公司金库", -- Corporate vault
+	tax_desk = "税务桌", -- Tax Desk
 
 	-- Researches
 	research_waiting = "等待中", -- Waiting
@@ -137,6 +142,7 @@ lang.lang = {
 	automatic_coffee_self = "自助咖啡机", -- Selfserving Servant
 	automatic_coffee = "咖啡服务员", -- Servant
 	wakeup_employees = "叫醒员工！", -- Wake up!
+	tax_fraud = "税务欺诈", -- Tax fraud
 
 	research_efficiency_desc = "所有研究速度提升10%", -- All researches will be 10% quicker
 	research_price_drop_desc = "所有研究费用降低10%", -- All researches will cost 10% less
@@ -147,6 +153,7 @@ lang.lang = {
 	research_wage_1_desc = "员工工资减少10%", -- The wage of your workers will be dropped by 10%.
 	research_wage_2_desc = "员工工资额外减少10%", -- The wage of your workers will be dropped by an additional 10%.
 	research_wage_3_desc = "员工工资再额外减少10%", -- The wage of your workers will be dropped by an additional 10%.
+	tax_fraud_desc = "税收减少10%", -- Taxes will be reduced by 10%.
 
 	wakeup_employees_desc = "秘书桌将在员工精力足够时自动唤醒他们", -- Your secretary desk will be able to wake up all sleeping workers as soon as their energy level is sufficient.
 	automatic_coffee_desc = "秘书桌将能为所有员工（除自身）补充精力", -- Your secretary desk will be able to replenish the energy of all workers (except itself).
