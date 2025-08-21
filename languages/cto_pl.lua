@@ -18,10 +18,10 @@ lang.lang = {
 	earnings = "Dochód",
 	profit = "Przychód",
 
-	cto_missing_admin = "Musisz być adminem, aby to zrobić!",
+	cto_missing_admin = "Musisz być ADMINem, aby to zrobić!",
 	cto_missing_donator = "Musisz być VIPem, aby to zrobić!",
 
-	key_place_desk = "LMB: Postaw biórko",
+	key_place_desk = "LMB: Postaw biurko",
 	key_cancel_desk = "RMB: Anuluj",
 
 	// Permissions
@@ -33,8 +33,8 @@ lang.lang = {
 	create_corp = "Stwórz firmę",
 	create_corp_button = "Stwórz firmę (%price)", -- %price
 	corp_name = "Nazwa firmy",
-	old_corp = "To należy do twojej byłej korporacji!",
-	placeholder_name = "Moja firma",
+	old_corp = "To należy do twojej byłej firmy!",
+	placeholder_name = "Jononek Tłumaczenia",
 
 	corp_created = "Udało Ci się stworzyć firmę: '%name'", -- %name
 	no_money_to_create_corp = "Nie masz wystarczająco pieniędzy %money by stworzyć firmę!", -- %money
@@ -47,19 +47,19 @@ lang.lang = {
 	corp_reached_level = " Firma %name osiągnęła poziom %level",
 
 	// Desks related
-	desk_limit = "Osiągnąłeś limit biurek!",
+	desk_limit = "Osiągnąłeś/aś limit biurek!",
 	desk_no_money = "Twoja firma nie ma wystarczająco pieniędzy, aby kupić to biurko!",
-	deskbuilder_limit = "Osiągnąłeś limit \"deskbuilders\"!",
+	deskbuilder_limit = "Osiągnąłeś/aś limit \"kartonów\"!",
 	dismantle = "Rozmontuj biurko",
 	dismantle_vault = "Rozmontuj sejf",
 	cant_sell = "Nie możesz sprzedać tego biurka!",
-	desk_sold = "Sprzedałeś %name za %price",
+	desk_sold = "Sprzedałeś/aś %name za %price",
 	sell_desk = "Sprzedaj biurko",
 	build_desk = "Postaw biurko",
 
 	// Coffee
-	coffee_limit = "Osiągnąłeś limit maszyn do kawy!",
-	coffee_no_money = "Twoja firma nie ma wystarczająco pieniędzy, aby kupić tą maszynę!",
+	coffee_limit = "Osiągnąłeś/aś limit kaw!",
+	coffee_no_money = "Twoja firma nie ma wystarczająco pieniędzy, aby kupić tą kawę!",
 
 	coffee_black = "Kawa czarna",
 	coffee_black_sugar = "Kawa czarna z cukrem",
@@ -70,10 +70,10 @@ lang.lang = {
 	withdraw_money = "Wypłać pieniądze",
 	money_amount = "Ilość pieniędzy",
 	deposit_money = "Wpłać pieniądze",
-	withdrew_money = "Wypłaciłeś %amount",
-	deposited_money = "Wpłaciłeś %amount",
-	vault_expanded = "Rozszerzyłeś sejf i może teraz trzymać %amount za %price",
-	no_money = "Nie masz pieniędzy w sekfie!",
+	withdrew_money = "Wypłaciłeś/aś %amount",
+	deposited_money = "Wpłaciłeś/aś %amount",
+	vault_expanded = "Rozszerzyłeś/aś sejf i może teraz trzymać %amount za %price",
+	no_money = "Nie masz pieniędzy w sejfie!",
 	no_money_user = "Nie masz wystarczająco pieniędzy!",
 	money_too_low = "Wybrana kwota musi być większa od 0!",
 
@@ -83,7 +83,7 @@ lang.lang = {
 	sell_vault = "Sprzedaj sejf",
 	build_vault = "Zbuduj sejf",
 	upgrade_vault = "Ulepsz sejf",
-	vault_max_capacity = "Osiągnąłeś maksymalną liczbę sejfów!",
+	vault_max_capacity = "Osiągnąłeś/aś maksymalną liczbę sejfów!",
 
 	// Taxes
 	taxes = "Podatki",
@@ -91,18 +91,18 @@ lang.lang = {
 	// workers
 	select_worker = "Wybierz pracownika",
 	hire_worker = "Zatrudnij %s",
-	worker_hired = "Zatrudniłeś %name jako swojego nowego pracownika!",
+	worker_hired = "Zatrudniłeś/aś %name jako swojego nowego pracownika!",
 	worker_wage_unpayable = "Twoja firma nie ma wystarczająco pieniędzy, aby zapłacić %name",
 	too_tired = "%name jest zbyt zmęczony by pracować!",
 	select_worker_first = "Musisz najpierw wybrać pracownika!",
 	fire_worker = "Zwolnij pracownika",
-	worker_fired = "Zwolniłeś %name",
-	asleep = "Asleep - [%key] aby obudzić",
-	new_workers_in = "Mówi pracownicy w ",
+	worker_fired = "Zwolniłeś/aś %name",
+	asleep = "Śpi - [%key] aby obudzić",
+	new_workers_in = "Nowi pracownicy w ",
 
 	// Destruction
 	corp_rebellion = "Twoi pracownicy się zbuntowali i wszystko spalili!",
-	corp_bankrupt = "Twoi pracownicy odeszli, bo nie mogłeś im zapłacić!",
+	corp_bankrupt = "Twoi pracownicy odeszli, bo nie mogłeś/aś im zapłacić!",
 	corp_lost = "Twoje biurko firmowe jest zniszczone. Twoja firma jest stracona :(",
 
 	// Desk names
@@ -123,40 +123,40 @@ lang.lang = {
 	start_research = "Rozpocznij badania",
 	select_research_first = "Musisz najpierw wybrać badanie!",
 	research_open = "Otwórz opcję badania, aby zobaczyć jego opis!",
-	research_finished = "Skończyłeś badania nad %name",
+	research_finished = "Skończyłeś/aś badania nad %name",
 
 	research_in_progress = "Już coś badasz!",
 	research_no_money = "Nie masz pieniędzy, aby rozpocząć badania!",
-	research_needed = "Musisz najpierw zbadać najpierw %name!",
-	research_started = "Rozpocząłeś badania nad %name",
+	research_needed = "Musisz najpierw zbadać %name!",
+	research_started = "Rozpocząłeś/aś badania nad %name",
 
 	research_efficiency = "Szybkie badania",
-	research_price_drop = "Negotiator",
-	xp_worker_1 = "Mądry pracownik I",
-	xp_worker_2 = "Mądry pracownik II",
-	xp_corp_1 = "Dobra firma I",
-	xp_corp_2 = "Dobra firma II",
-	research_wage_1 = "Tani pracownicy I",
-	research_wage_2 = "Tani pracownicy II",
-	research_wage_3 = "Tani pracownicy III",
-	automatic_coffee_self = "Selfserving Servant",
-	automatic_coffee = "Servant",
-	wakeup_employees_research = "Wstawaj kur*a!",
+	research_price_drop = "Zaplecze badawcze",
+	xp_worker_1 = "Mądry pracownik",
+	xp_worker_2 = "Bardzo mądry pracownik",
+	xp_corp_1 = "Dobra firma",
+	xp_corp_2 = "Świetna firma",
+	research_wage_1 = "Tani pracownicy",
+	research_wage_2 = "Tańsi pracownicy",
+	research_wage_3 = "Praca na czarno",
+	automatic_coffee_self = "Samozaopatrzenie",
+	automatic_coffee = "Zaopatrzenie",
+	wakeup_employees_research = "Wstawaj, raz!",
 	tax_fraud = "Oszustwo podatkowe",
 
-	research_efficiency_desc = "Wszystkie badania będą i 10% szybsze",
+	research_efficiency_desc = "Wszystkie badania będą 10% szybsze",
 	research_price_drop_desc = "Wszystko badania będą kosztować 10% mniej",
-	xp_worker_1_desc = "Twoi pracownicy otrzymają 10% więcej XP.",
-	xp_worker_2_desc = "Twoi pracownicy otrzymają 10% więcej XP.",
-	xp_corp_1_desc = "Twoja firma otrzymuje 25% więcej XP.",
-	xp_corp_2_desc = "Twoja firma otrzymuje 10% więcej XP.",
-	research_wage_1_desc = "Twoi pracownicy biorą teraz 10% mniej.",
-	research_wage_2_desc = "Twoi pracownicy biorą teraz 10% mniej.",
-	research_wage_3_desc = "Twoi pracownicy biorą teraz 10% mniej. Ale Januszex!",
-	research_tax_fraud_desc = "Podatki spadły o 10%.",
+	xp_worker_1_desc = "Twoi pracownicy będą otrzymywać 10% więcej XP.",
+	xp_worker_2_desc = "Twoi pracownicy będą otrzymywać 10% więcej XP.",
+	xp_corp_1_desc = "Twoja firma będzie otrzymywać 25% więcej XP.",
+	xp_corp_2_desc = "Twoja firma będzie otrzymywać 10% więcej XP.",
+	research_wage_1_desc = "Twoi pracownicy będą brać 10% mniej.",
+	research_wage_2_desc = "Twoi pracownicy będą brać 10% mniej.",
+	research_wage_3_desc = "Twoi pracownicy będą brać 10% mniej. Albo to Januszex, albo firma idealna!",
+	research_tax_fraud_desc = "Podatki spadną o 10%.",
 
 	wakeup_employees_research_desc = "Twoja sekretarka będzie w stanie obudzić każdego śpiącego pracownika, gdy tylko jego poziom energii będzie wystarczający.",
-	automatic_coffee_desc = "Twoja sekretarka będzie w stanie uzupełnić kawę (energię) wszystkich pracowników (oprócz swojej).",
+	automatic_coffee_desc = "Twoja sekretarka będzie w stanie uzupełnić kawę (energię) wszystkich pracowników (za wyjątkiem swojej).",
 	automatic_coffee_self_desc = "Twoja sekretarka będzie mogła sama uzupełnić swoją kawę (energię).",
 }
 
