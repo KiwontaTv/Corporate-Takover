@@ -153,7 +153,7 @@ lang.lang = {
 	research_wage_1_desc = "Twoi pracownicy biorą teraz 10% mniej.",
 	research_wage_2_desc = "Twoi pracownicy biorą teraz 10% mniej.",
 	research_wage_3_desc = "Twoi pracownicy biorą teraz 10% mniej. Ale Januszex!",
-	research_tax_fraud_desc = "Podatki spadły o 10%.",
+	tax_fraud_desc = "Podatki spadły o 10%.",
 
 	wakeup_employees_research_desc = "Twoja sekretarka będzie w stanie obudzić każdego śpiącego pracownika, gdy tylko jego poziom energii będzie wystarczający.",
 	automatic_coffee_desc = "Twoja sekretarka będzie w stanie uzupełnić kawę (energię) wszystkich pracowników (oprócz swojej).",

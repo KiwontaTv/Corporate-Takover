@@ -151,7 +151,7 @@ lang.lang = {
 	research_wage_1_desc = "The wage of your workers will be dropped by 10%.",
 	research_wage_2_desc = "The wage of your workers will be dropped by an additional 10%.",
 	research_wage_3_desc = "The wage of your workers will be dropped by an additional 10%.",
-	research_tax_fraud_desc = "Taxes will be dropped by 10%.",
+	tax_fraud_desc = "Taxes will be dropped by 10%.",
 
 	wakeup_employees_research_desc = "Your secretary desk will be able to wake up all sleeping workers as soon as their energy level is sufficient.",
 	automatic_coffee_desc = "Your secretary desk will be able to replenish the energy of all workers (except itself).",

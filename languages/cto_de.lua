@@ -151,7 +151,7 @@ lang.lang = {
 	research_wage_1_desc = "Der Lohn Ihrer Arbeiter wird um 10% gesenkt.",
 	research_wage_2_desc = "Der Lohn Ihrer Arbeiter wird um weitere 10% gesenkt.",
 	research_wage_3_desc = "Der Lohn Ihrer Arbeiter wird um weitere 10% gesenkt.",
-	research_tax_fraud_desc = "Die Steuern werden um 10% gesenkt.",
+	tax_fraud_desc = "Die Steuern werden um 10% gesenkt.",
 
 	wakeup_employees_desc = "Dein Sekretär wird in der Lage sein, alle schlafenden Arbeiter aufzuwecken, sobald ihr Energielevel ausreichend ist.",
 	automatic_coffee_desc = "Dein Sekretär wird in der Lage sein, die Energie aller Arbeiter (außer sich selbst) aufzufüllen.",

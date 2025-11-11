@@ -24,6 +24,7 @@
 // [zh-CN] = Simplified Chinese/简体中文 by https://www.gmodstore.com/users/Quentin_Cooper
 // [tr] = Turkish/Türkçe by https://www.gmodstore.com/users/shazam
 // [pt] = Portuguese/português by https://www.gmodstore.com/users/76561198075216760 (StoRM)
+// [pl] = Polish by https://www.gmodstore.com/users/76561198833869255 (Jononek)
 Corporate_Takeover.Config.Language = "en"
 
 // How much money creating a company costs [default: 5000]
@@ -138,6 +139,16 @@ Corporate_Takeover.Config.SleepThresholdLow = 25
 -- The chance of a worker falling asleep when very tired [default: {1, 4}]
 Corporate_Takeover.Config.SleepChanceLow = {1, 4}
 
+-- Minimum and maximum wages for workers (DarkRP $) [default: 50, 80]
+Corporate_Takeover.Config.Wages.Minimum = 50
+Corporate_Takeover.Config.Wages.Maximum = 80
+
+-- How much should the tax clerk wage cost compared to normal workers? [default: 0.25, so 25%]
+Corporate_Takeover.Config.TaxClerkWageMultiplier = 0.25
+
+-- How much should the secretary wage cost compared to normal workers? [default: 0.5, so 50%]
+Corporate_Takeover.Config.SecretaryWageMultiplier = 0.5
+
 //
 // Energy
 //
@@ -191,8 +202,20 @@ Corporate_Takeover.Config.DefaultCoffee = {
     },
 }
 
+-- Energy Drain per tick [default: 0, 2]
+Corporate_Takeover.Config.Energy.DrainMinimum = 0
+Corporate_Takeover.Config.Energy.DrainMaximum = 2
+
+-- Energy Recovery per tick when sleeping [default: 5, 10]
+Corporate_Takeover.Config.Energy.RecoveryMinimum = 5
+Corporate_Takeover.Config.Energy.RecoveryMaximum = 10
+
 // How much 1% energy costs when the secretary worker replenishes energy [default: 30]
 Corporate_Takeover.Config.SecretaryCoffeeCost = 30
+
+-- Auto-Wakeup asleep employees when energy is above this value [default: 0]
+-- 0 to disable auto-wakeup
+Corporate_Takeover.Config.AutoWakeupThreshold = 0
 
 //
 // Colors

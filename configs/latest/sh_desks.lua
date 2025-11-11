@@ -79,7 +79,7 @@ Corporate_Takeover:addDesk("vault", {
 
     buyable = true,
     level = 3,
-    price = 1000, 
+    price = 1000,
     sell = .75,
 
     model = "models/corporate_takeover/nostras/safe.mdl",
@@ -99,7 +99,7 @@ Corporate_Takeover:addDesk("basic_worker_desk", {
 
     buyable = true,
     level = 1,
-    price = 2500, 
+    price = 2500,
     sell = .75,
 
     model = "models/corporate_takeover/nostras/worker_desk.mdl",
@@ -287,7 +287,7 @@ Corporate_Takeover:addResearchOption("demo", {
 
     -- Optinal: A callback function that gets called when the research is finished.
     onFinish = function(Corp, CorpID, class, ent)
-        
+
     end
 })
 /*

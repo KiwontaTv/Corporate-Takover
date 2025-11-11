@@ -1,10 +1,10 @@
 local lang = {}
- 
+
 lang.name = "Türkçe"
 lang.short = "tr"
 
 // Made by https://www.gmodstore.com/users/shazam
- 
+
 lang.lang = {
     // Genel
     err = "Bir şeyler yanlış gitti. Lütfen tekrar deneyin!",
@@ -17,17 +17,17 @@ lang.lang = {
     age = "Yaş",
     earnings = "Kazanç",
     profit = "Kâr",
- 
+
     cto_missing_admin = "Bunu yapmak için yönetici olmanız gerekiyor!",
     cto_missing_donator = "Bunu yapmak için VIP olmanız gerekiyor!",
- 
+
     key_place_desk = "LMB: Masayı yerleştir",
     key_cancel_desk = "RMB: İptal et",
- 
+
     // İzinler
     not_yours = "Bu senin masa kurucun değil!",
     not_your_desk = "Bu sana ait değil!",
- 
+
     // Şirket
     corp_exists = "Zaten bir şirkete sahipsin. Onunla ilgilenmek istemiyor musun?",
     create_corp = "Şirket Kur",
@@ -35,7 +35,7 @@ lang.lang = {
     corp_name = "Şirket adı",
     old_corp = "Bu, eski şirketine ait!",
     placeholder_name = "Şirketim",
- 
+
     corp_created = "'%name' adlı şirketi başarıyla kurdun", -- %name
     no_money_to_create_corp = "Bir şirket kurmak için %money paran yok!", -- %money
     corp_insufficient_level = "Şirketin henüz %level seviyesini geçmedi!", -- %level
@@ -43,9 +43,9 @@ lang.lang = {
     corpname_empty = "Şirket adı boş olamaz!",
     corpname_too_short = "Şirket adı en az 5 karakter uzunluğunda olmalı!",
     corpname_default = "Lütfen şirketin için farklı bir isim kullan!",
- 
+
     corp_reached_level = "%name, %level seviyesine ulaştı",
- 
+
     // Masalarla ilgili
     desk_limit = "Bu masa için sınırına ulaştın!",
     desk_no_money = "Şirketinin bu masayı satın almak için yeterli parası yok!",
@@ -56,16 +56,16 @@ lang.lang = {
     desk_sold = "%name adlı masayı %price karşılığında sattın",
     sell_desk = "Masayı sat",
     build_desk = "Masa kur",
- 
+
     // Kahve
     coffee_limit = "Kahve sınırına ulaştın!",
     coffee_no_money = "Şirketinin bu kahveyi almak için yeterli parası yok!",
- 
+
     coffee_black = "Sade kahve",
     coffee_black_sugar = "Şekerli sade kahve",
     coffee_bean = "Çekirdek kahve",
     coffee_bean_sugar = "Şekerli çekirdek kahve",
- 
+
     // Para yatırma/çekme
     withdraw_money = "Para çek",
     money_amount = "Para miktarı",
@@ -76,7 +76,7 @@ lang.lang = {
     no_money = "Şirket kasanda yeterli para yok!",
     no_money_user = "Yeterli paran yok!",
     money_too_low = "Seçtiğin miktar 0 veya daha düşük olamaz!",
- 
+
     // Kasa
     open_vault = "Kasayı aç",
     close_vault = "Kasayı kapat",
@@ -84,7 +84,7 @@ lang.lang = {
     build_vault = "Kasa kur",
     upgrade_vault = "Kasayı yükselt",
     vault_max_capacity = "Maksimum kasa kapasitesine ulaşıldı!",
- 
+
 	// Taxes
 	taxes = "Vergiler",
 
@@ -99,12 +99,12 @@ lang.lang = {
     worker_fired = "%name adlı çalışanı kovdun",
     asleep = "Uyuyor - Uyandırmak için [%key]",
     new_workers_in = "Yeni çalışanlar geliyor",
- 
+
     // Yıkım
     corp_rebellion = "Çalışanların isyan çıkardı ve her şeyi yaktılar!",
     corp_bankrupt = "Çalışanların maaşlarını ödeyemediğin için işi bıraktılar!",
     corp_lost = "Şirket masan yok edildi. Şirketin kayboldu :(",
- 
+
     // Masa isimleri
     corporate_desk = "Şirket Masası",
     basic_worker_desk = "Temel Çalışan Masası",
@@ -115,7 +115,7 @@ lang.lang = {
     research_desk = "Araştırma Masası",
     vault = "Şirket Kasası",
     tax_desk = "Muhasebe Masası",
- 
+
     // Araştırmalar
     research_waiting = "Bekleniyor",
     research_description = "Burada araştırmanın açıklaması olacak",
@@ -124,12 +124,12 @@ lang.lang = {
     select_research_first = "Önce bir araştırma seçeneği seçmelisin!",
     research_open = "Açıklamasını görmek için bir araştırma seçeneği aç!",
     research_finished = "%name araştırmasını tamamladın",
- 
+
     research_in_progress = "Zaten devam eden bir araştırma var!",
     research_no_money = "Bu araştırmayı başlatmak için yeterli paran yok!",
     research_needed = "Önce %name araştırmasını yapmalısın!",
     research_started = "%name araştırmasına başladın",
- 
+
     research_efficiency = "Hızlı Araştırmacı",
     research_price_drop = "Pazarlıkçı",
     xp_worker_1 = "Zeki Çalışan I",
@@ -143,7 +143,7 @@ lang.lang = {
     automatic_coffee = "Hizmetçi",
     wakeup_employees_research = "Uyandır!",
     tax_fraud = "Vergi Dolandırıcılığı",
- 
+
     research_efficiency_desc = "Tüm araştırmalar %10 daha hızlı tamamlanır.",
     research_price_drop_desc = "Tüm araştırmaların maliyeti %10 azalır.",
     xp_worker_1_desc = "Çalışanların %10 daha fazla XP kazanır.",
@@ -154,10 +154,10 @@ lang.lang = {
     research_wage_2_desc = "Çalışanlarının maaşı ek olarak %10 daha düşer.",
     research_wage_3_desc = "Çalışanlarının maaşı ek olarak %10 daha düşer.",
     tax_fraud_desc = "Vergiler %10 düşer.",
- 
+
     wakeup_employees_desc = "Sekreter masası, enerjisi yeterli olan tüm uyuyan çalışanları uyandırabilir.",
     automatic_coffee_desc = "Sekreter masası, kendisi hariç tüm çalışanların enerjisini yenileyebilir.",
     automatic_coffee_self_desc = "Sekreter masası, kendi enerjisini yenileyebilir.",
 }
- 
+
 Corporate_Takeover:RegisterLang(lang.name, lang.short, lang.lang)
